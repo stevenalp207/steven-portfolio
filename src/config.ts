@@ -1,6 +1,6 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
-    title: "Simple Portfolio",
+    website: "https://salpizar.vercel.app/", // replace this with your deployed domain
+    title: "Steven Alpízar | Portfolio",
     description: "A simple but beautiful portfolio created with Astro",
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
@@ -8,15 +8,14 @@ export const SITE = {
     logoText: "Portfolio",
     lang: "en",
     favicon: "/favicon.png",
-    repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
-    profile: "https://victoralvarado.dev/",
+    author: "Steven Alpízar",
+    profile: "https://www.linkedin.com/in/steven-alpizar-gamboa",
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
+    name: "Steven Alpízar Gamboa",
+    profession: "Industrial Electronics Technician",
+    profileImage: "pp.png",
     profileFacts: [
         {
             value: 10,
@@ -32,11 +31,11 @@ export const ME = {
         }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+        email: "s.alpizar207@gmail.com",
+        linkedin: "https://www.linkedin.com/in/steven-alpizar-gamboa",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "Trained as an Industrial Electronics Technician with knowledge in industrial systems and automation, electrical schematic interpretation, microcontroller programming, and programmable logic controllers (PLC). Additionally, developed soft skills such as teamwork, leadership, assertive communication, problem-solving, results-oriented approach, and critical thinking.",
 }
 
 export const SOCIALS = [
