@@ -18,16 +18,16 @@ export const ME = {
     profileImage: "pp.png",
     profileFacts: [
         {
-            value: 10,
-            description: "Years of Experience"
-        },
-        {
             value: 5,
-            description: "Completed Projects"
+            description: "Certifications"
         },
         {
-            value: 4,
-            description: "Satisfied Clients"
+            value: 3.9,
+            description: "GPA"
+        },
+        {
+            value: 2,
+            description: "Languages Spoken"
         }
     ],
     contactInfo: {
@@ -43,7 +43,7 @@ export const SOCIALS = [
         name: "Twitter",
         url: "https://twitter.com/vicbox.dev",
         icon: "twitter-x-fill",
-        show: true
+        show: false
     },
     {
         name: "Facebook",
@@ -55,13 +55,13 @@ export const SOCIALS = [
         name: "Instagram",
         url: "https://www.instagram.com/vicbox.dev",
         icon: "instagram-fill",
-        show: true
+        show: false
     },
     {
         name: "Youtube",
         url: "https://www.youtube.com/vicbox.dev",
         icon: "youtube-fill",
-        show: true
+        show: false
     },
     {
         name: "TikTok",
@@ -73,6 +73,6 @@ export const SOCIALS = [
         name: "GitHub",
         url: "https://github.com/vicbox.dev",
         icon: "github-fill",
-        show: true
+        show: false
     }
 ]

@@ -8,7 +8,7 @@ const hardSkills: HardSkill[] = [
   {
     "name": "Microcontroller Programming",
     "description": "Programming microcontrollers like ESP32, Raspberry Pi, and Arduino for embedded systems",
-    "icon": "arduino"
+    "icon": "progra"
   },
   {
     "name": "PLCs",
@@ -18,17 +18,17 @@ const hardSkills: HardSkill[] = [
   {
     "name": "Automation Systems",
     "description": "Design and implementation of automated systems for industrial applications",
-    "icon": "tools-fill"
+    "icon": "automation"
   },
   {
     "name": "Machine Learning",
     "description": "Developing ML models for gesture recognition and sensor data analysis",
-    "icon": "tools-fill"
+    "icon": "machine"
   },
   {
     "name": "Sensor Integration",
     "description": "Connecting and processing data from multiple sensors for real-time applications",
-    "icon": "tools-fill"
+    "icon": "sensors"
   },
   {
     "name": "Robotics",
@@ -38,7 +38,7 @@ const hardSkills: HardSkill[] = [
   {
     "name": "Electrical Diagrams and Schematics",
     "description": "Designing and interpreting electrical schematics for industrial and embedded systems",
-    "icon": "tools-fill"
+    "icon": "electrical"
   },
   {
     "name": "LabVIEW",
@@ -53,7 +53,7 @@ const hardSkills: HardSkill[] = [
   {
     "name": "CADE SIMU",
     "description": "Creating and testing automation circuits with relay logic and PLCs",
-    "icon": "tools-fill"
+    "icon": "cadesimu"
   },
   {
     "name": "AutoCAD",
