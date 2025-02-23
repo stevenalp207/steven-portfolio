@@ -8,12 +8,12 @@ const hardSkills: HardSkill[] = [
   {
     "name": "Microcontroller Programming",
     "description": "Programming microcontrollers like ESP32, Raspberry Pi, and Arduino for embedded systems",
-    "icon": "tools-fill"
+    "icon": "arduino"
   },
   {
     "name": "PLCs",
     "description": "Experience in industrial automation using PLCs for control and monitoring",
-    "icon": "tools-fill"
+    "icon": "siemens"
   },
   {
     "name": "Automation Systems",
@@ -33,7 +33,7 @@ const hardSkills: HardSkill[] = [
   {
     "name": "Robotics",
     "description": "Working with robotic systems for automation and movement control",
-    "icon": "tools-fill"
+    "icon": "robotics"
   },
   {
     "name": "Electrical Diagrams and Schematics",
@@ -43,12 +43,12 @@ const hardSkills: HardSkill[] = [
   {
     "name": "LabVIEW",
     "description": "Developing graphical-based applications for data acquisition and control",
-    "icon": "tools-fill"
+    "icon": "labview"
   },
   {
     "name": "Multisim",
     "description": "Simulating electronic circuits for analysis and design validation",
-    "icon": "tools-fill"
+    "icon": "multisim"
   },
   {
     "name": "CADE SIMU",
@@ -58,32 +58,32 @@ const hardSkills: HardSkill[] = [
   {
     "name": "AutoCAD",
     "description": "Designing 2D and 3D schematics for electrical and mechanical projects",
-    "icon": "tools-fill"
+    "icon": "autocad"
   },
   {
     "name": "Fusion 360",
     "description": "Creating 3D models and mechanical designs for prototyping",
-    "icon": "tools-fill"
+    "icon": "autodesk"
   },
   {
     "name": "Arduino IDE",
     "description": "Developing and debugging applications for Arduino-based projects",
-    "icon": "tools-fill"
+    "icon": "arduino"
   },
   {
     "name": "PyCharm",
     "description": "Writing and debugging Python applications for ML and automation",
-    "icon": "tools-fill"
+    "icon": "pycharm"
   },
   {
     "name": "VS Code",
     "description": "Using VS Code for software development in multiple languages",
-    "icon": "tools-fill"
+    "icon": "vscode"
   },
   {
     "name": "Excel",
     "description": "Analyzing data, creating reports, and automating processes with Excel",
-    "icon": "tools-fill"
+    "icon": "excel"
   }
 ];
 
