@@ -1,0 +1,135 @@
+---
+title: Digital Electronics
+summary: Digital electronics is a field of electronics that deals with digital signals and systems. Unlike analog electronics, which use continuous signals, digital electronics work with discrete signals represented by binary numbers (0s and 1s).
+tags:
+    - Encoder
+    - Decoder
+    - Adders
+    - MUX
+    - DEMUX
+startDate: 2025-02-13
+endDate: 2025-02-15
+author: Steven Alpízar
+url: https://google.com
+cover: './images/digital-electronics/cover.png'
+ogImage: './images/digital-electronics/cover.png'
+---
+
+## Table of Contents
+1. [Encoder](#encoder)
+2. [Decoder](#decoder)
+3. [Adders](#adders)
+- [Half Adder](#half-adder)
+- [Full Adder](#full-adder)
+4. [Comparator](#comparator)
+5. [Demux](#demux)
+6. [Mux](#mux)
+
+---
+
+## Encoder
+
+An **encoder** is a combinational circuit that converts multiple input signals into a coded binary output. It typically has "2^n" input lines and *"n"* output lines.
+
+### How it works
+
+Encoders work by detecting which input is active and generating a corresponding binary code. For example, in a 4-to-2 encoder, if input 3 (binary "11") is active, the output will be "11".
+
+### Diagram
+
+![encoder](./images/digital-electronics/encoder.jpg)
+
+---
+
+## Decoder
+
+A **decoder** is a combinational circuit that converts binary-coded inputs into a one-hot output, meaning only one output is active at a time.
+
+### How it works
+
+A typical n-to-2^n decoder takes "n" binary inputs and activates one of "2^n" outputs. This is useful in memory addressing and demultiplexing.
+
+### Diagram
+![decoder](./images/digital-electronics/decoder.png)
+
+---
+
+## Adders
+
+Adders are fundamental circuits used to perform binary addition.
+
+### Half Adder
+
+A **half adder** adds two single-bit binary numbers and outputs a sum and carry.
+
+### How it works
+
+- Sum = A XOR B
+- Carry = A AND B
+
+### Diagram
+![hald-adder](./images/digital-electronics/half-adder.jpg)
+
+
+### Full Adder
+
+A **full adder** adds three input bits: two significant bits and a carry bit from the previous addition.
+
+### How it works
+
+- Sum = A XOR B XOR Cin
+- Carry = (A AND B) OR (Cin AND (A XOR B))
+
+### Diagram
+![full-adder](./images/digital-electronics/full-adder.png)
+
+
+---
+
+## Comparator
+
+A **comparator** compares two binary values and determines their relationship (equal, greater than, or less than).
+
+### How it works
+
+A "n-bit" comparator has two inputs (A, B) and three outputs:
+
+- A > B
+- A < B
+- A = B
+
+### Diagram
+
+![comparator](./images/digital-electronics/comparator.webp)
+
+---
+
+## Demux
+
+A **demultiplexer (DEMUX)** takes a single input and routes it to one of several output lines based on a selector input.
+
+### How it works
+
+A 1-to-4 DEMUX has one data input, two selector inputs, and four outputs. The active output is determined by the selector inputs.
+
+### Diagram
+
+![demux](./images/digital-electronics/demux.png)
+
+---
+
+## Mux
+
+A **multiplexer (MUX)** selects one of several input signals and forwards it to a single output.
+
+### How it works
+
+A 4-to-1 MUX has four inputs, two selector lines, and one output. The selector lines choose which input is transmitted to the output.
+
+### Diagram
+![mux](./images/digital-electronics/mux.jpg)
+
+
+---
+
+
