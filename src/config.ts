@@ -34,6 +34,7 @@ export const ME = {
         email: "s.alpizar207@gmail.com",
         linkedin: "https://www.linkedin.com/in/steven-alpizar-gamboa",
         resumeDoc: "resume.pdf",
+        arduinoDoc: "4664e99e-ae2a-4b64-b3d2-0e4d3685aee5.pdf"
     },
     aboutMe: "Trained as an Industrial Electronics Technician with knowledge in industrial systems and automation, electrical schematic interpretation, microcontroller programming, and programmable logic controllers (PLC). Additionally, developed soft skills such as teamwork, leadership, assertive communication, problem-solving, results-oriented approach, and critical thinking.",
 }
