@@ -1,0 +1,141 @@
+---
+title: LESCO Sign Language Recognition Glove
+summary: Intelligent glove system using accelerometers and machine learning to interpret Costa Rican Sign Language (LESCO), enhancing communication accessibility.
+tags:
+    - Machine Learning
+    - Wearable Technology
+    - Accessibility
+    - Python
+    - Accelerometers
+    - Gesture Recognition
+startDate: 2023-02-28
+endDate: 2024-11-10
+author: Steven Alpízar Gamboa
+url: https://www.linkedin.com/in/steven-alpizar-gamboa
+cover: './images/digital-electronics/encoder.jpg'
+ogImage: './images/digital-electronics/encoder.jpg'
+---
+
+# LESCO Sign Language Recognition Glove
+
+## Project Mission
+
+The LESCO (Lenguaje de Señas Costarricense) Sign Language Recognition Glove was developed to bridge communication barriers between deaf and hearing communities in Costa Rica. By leveraging wearable sensor technology and machine learning, this system translates hand gestures into text and speech in real-time.
+
+## Role & Contributions
+
+**Lead Developer** - Responsible for hardware integration and machine learning implementation:
+
+- Designed and prototyped the wearable glove with embedded sensors
+- Collected and labeled gesture data for training machine learning models
+- Developed Python-based gesture recognition algorithms
+- Implemented real-time classification and translation systems
+- Tested and refined the system with LESCO speakers
+
+## Technologies Used
+
+- **Hardware**: Accelerometers (MPU6050), flex sensors, Arduino Nano
+- **Microcontroller**: Arduino Nano for sensor data acquisition
+- **Programming**: Python for machine learning, C++ for Arduino
+- **ML Framework**: Scikit-learn, TensorFlow for gesture classification
+- **Communication**: Bluetooth module (HC-05) for wireless data transmission
+- **Interface**: Python GUI for displaying translated text and speech output
+
+## System Architecture
+
+### Hardware Components
+
+1. **Sensor Array**: Multiple accelerometers positioned on fingers and palm
+2. **Data Acquisition**: Arduino Nano processing sensor signals at 50Hz
+3. **Wireless Transmission**: Bluetooth module for real-time data streaming
+4. **Power Supply**: Rechargeable lithium battery for portable operation
+
+### Software Pipeline
+
+1. **Data Collection**: Raw accelerometer readings captured during gestures
+2. **Signal Processing**: Noise filtering and feature extraction
+3. **Classification**: Machine learning model identifies gesture patterns
+4. **Translation**: Matched gestures converted to LESCO vocabulary
+5. **Output**: Text display and text-to-speech conversion
+
+## Machine Learning Approach
+
+### Data Collection & Preparation
+- Recorded 50+ LESCO gestures with multiple repetitions
+- Collected data from different users for model generalization
+- Labeled dataset with corresponding LESCO meanings
+- Applied data augmentation for improved model robustness
+
+### Model Development
+- **Algorithm**: Support Vector Machine (SVM) and Neural Networks
+- **Features**: Time-domain and frequency-domain characteristics
+- **Training**: 80/20 train-test split with cross-validation
+- **Accuracy**: Achieved 85%+ recognition accuracy for trained gestures
+
+### Real-Time Implementation
+- Optimized model for low-latency inference (<100ms)
+- Implemented gesture segmentation for continuous recognition
+- Added confidence scoring for ambiguous gestures
+
+## Key Features
+
+1. **Real-Time Recognition**: Instant translation of hand gestures
+2. **Wireless Operation**: Bluetooth connectivity for untethered use
+3. **Expandable Vocabulary**: System can be trained on new gestures
+4. **User-Friendly Interface**: Simple GUI for translated output
+5. **Portable Design**: Compact, wearable form factor
+
+## Technical Challenges & Solutions
+
+### Challenge 1: Sensor Calibration
+- **Problem**: Accelerometer drift and individual hand size variations
+- **Solution**: Implemented dynamic calibration routine and normalization
+
+### Challenge 2: Gesture Segmentation
+- **Problem**: Identifying start and end of gestures in continuous motion
+- **Solution**: Developed threshold-based detection with motion energy analysis
+
+### Challenge 3: Real-Time Performance
+- **Problem**: Processing overhead causing latency
+- **Solution**: Optimized feature extraction and model architecture
+
+## Impact & Outcomes
+
+- Successfully demonstrated system with local LESCO community
+- Received positive feedback on usability and accuracy
+- Identified areas for improvement through user testing
+- Raised awareness about accessibility technology needs
+- Documented system for potential future development
+
+## Future Enhancements
+
+- Expand vocabulary to cover more complex LESCO phrases
+- Integrate computer vision for full hand pose estimation
+- Develop mobile application for broader accessibility
+- Improve battery life and miniaturize components
+- Collaborate with LESCO educators for curriculum integration
+
+## Skills Demonstrated
+
+### Technical Competencies
+- Embedded systems design and programming
+- Machine learning model development and deployment
+- Sensor integration and signal processing
+- Bluetooth communication protocols
+- User interface design
+
+### Domain Knowledge
+- Understanding of accessibility technology principles
+- LESCO sign language basics and structure
+- Human-computer interaction considerations
+- Wearable device design constraints
+
+### Soft Skills
+- Empathy-driven problem solving
+- User-centered design approach
+- Collaboration with end-user community
+- Technical documentation and presentation
+
+---
+
+*This project demonstrates commitment to using technology for social good, combining expertise in embedded systems, machine learning, and accessibility to create meaningful assistive technology.*
