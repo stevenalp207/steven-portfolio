@@ -7,6 +7,12 @@ interface Certification {
 
 const certifications: Certification[] = [
     {
+        title: "STEAMER MODEL EXPERT IN INTERDISCIPLINARY PROJECT INNOVATION",
+        issuer: "CTP Don Bosco",
+        date: "2025",
+        description: "Expertise in interdisciplinary project innovation within STEAM fields"
+    },
+    {
         title: "EBOX-I2 STEAM Program",
         issuer: "CTP Don Bosco",
         date: "2024",
