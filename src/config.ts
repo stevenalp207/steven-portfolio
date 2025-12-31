@@ -14,13 +14,13 @@ export const SITE = {
 
 export const ME = {
     name: "Steven Alpízar Gamboa",
-    profession: "Industrial Electronics Technician",
+    profession: "Industrial Electronics Technician | Data Science Engineering Student",
     profileImage: "pp.png",
     location: "Desamparados, San José, Costa Rica",
     phone: "+506 7190 3969",
     profileFacts: [
         {
-            value: 5,
+            value: 6,
             description: "Certifications"
         },
         {
@@ -38,7 +38,19 @@ export const ME = {
         resumeDoc: "resume.pdf",
         arduinoDoc: "4664e99e-ae2a-4b64-b3d2-0e4d3685aee5.pdf"
     },
-    aboutMe: "Trained as an Industrial Electronics Technician with knowledge in industrial systems and automation, electrical schematic interpretation, microcontroller programming, and programmable logic controllers (PLC). Additionally, developed soft skills such as teamwork, leadership, assertive communication, problem-solving, results-oriented approach, and critical thinking.",
+    aboutMe: "Industrial Electronics Technician with strong knowledge in industrial systems, automation, PLCs, microcontrollers, electrical schematics, and programming. Experienced in IoT, AI-based solutions, and robotics, with proven leadership in national and international STEAM competitions. Currently pursuing Data Science Engineering at Fidélitas University. Strong soft skills including teamwork, leadership, problem-solving, and critical thinking.",
+    references: [
+        {
+            name: "Lic. Jeisson Córdoba Vargas",
+            title: "Educational Innovation Manager – CTP Don Bosco",
+            email: "jcordoba@cedesdonbosco.ed.cr"
+        },
+        {
+            name: "Ing. Fabián Garro Aragón",
+            title: "Industrial Electronics Professor – CTP Don Bosco",
+            email: "fgarro@cedesdonbosco.ed.cr"
+        }
+    ]
 }
 
 export const SOCIALS = [

@@ -14,7 +14,7 @@ const languages: Language[] = [
     },
     {
         name: "English",
-        level: "Intermediate (TOEIC preparation in progress)",
+        level: "B2+ (CEFR) – ETS Certified",
         description: "",
         show: true
     },

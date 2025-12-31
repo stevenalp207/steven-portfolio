@@ -84,6 +84,16 @@ const hardSkills: HardSkill[] = [
     "name": "Excel",
     "description": "Analyzing data, creating reports, and automating processes with Excel",
     "icon": "excel"
+  },
+  {
+    "name": "Microsoft Azure",
+    "description": "Cloud computing platform for deploying and managing applications and services",
+    "icon": "mongodb"
+  },
+  {
+    "name": "Data Analysis",
+    "description": "Processing and analyzing data to extract meaningful insights and patterns",
+    "icon": "sensors"
   }
 ];
 
