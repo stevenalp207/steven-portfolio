@@ -16,6 +16,8 @@ export const ME = {
     name: "Steven Alpízar Gamboa",
     profession: "Industrial Electronics Technician",
     profileImage: "pp.png",
+    location: "Desamparados, San José, Costa Rica",
+    phone: "+506 7190 3969",
     profileFacts: [
         {
             value: 5,
