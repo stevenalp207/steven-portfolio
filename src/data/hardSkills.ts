@@ -88,12 +88,12 @@ const hardSkills: HardSkill[] = [
   {
     "name": "Microsoft Azure",
     "description": "Cloud computing platform for deploying and managing applications and services",
-    "icon": "azure"
+    "icon": "mongodb"
   },
   {
     "name": "Data Analysis",
     "description": "Processing and analyzing data to extract meaningful insights and patterns",
-    "icon": "machine"
+    "icon": "sensors"
   }
 ];
 
