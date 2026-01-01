@@ -1,13 +1,14 @@
 export const SITE = {
     website: "https://salpizar.vercel.app/", // replace this with your deployed domain
     title: "Steven Alpízar | Portfolio",
-    description: "A simple but beautiful portfolio created with Astro",
-    tags: ["portfolio", "Resume cv", "Astro"],
+    description: "Industrial Electronics Technician & Data Science Engineering Student specializing in IoT, AI, robotics, and automation. National & LATAM Champion in Samsung Solve for Tomorrow.",
+    tags: ["portfolio", "Industrial Electronics", "Data Science", "IoT", "AI", "Robotics", "Automation", "STEAM"],
     ogImage: "/og-image.webp",
     logo: "logo",
     logoText: "Portfolio",
     lang: "en",
     favicon: "/favicon.png",
+    repository: "https://github.com/stevenalp207/steven-portfolio",
     author: "Steven Alpízar",
     profile: "https://www.linkedin.com/in/steven-alpizar-gamboa",
 }
@@ -38,7 +39,7 @@ export const ME = {
         resumeDoc: "resume.pdf",
         arduinoDoc: "4664e99e-ae2a-4b64-b3d2-0e4d3685aee5.pdf"
     },
-    aboutMe: "Industrial Electronics Technician with strong knowledge in industrial systems, automation, PLCs, microcontrollers, electrical schematics, and programming. Experienced in IoT, AI-based solutions, and robotics, with proven leadership in national and international STEAM competitions. Currently pursuing Data Science Engineering at Fidélitas University. Strong soft skills including teamwork, leadership, problem-solving, and critical thinking.",
+    aboutMe: "Award-winning Industrial Electronics Technician and Data Science Engineering student with a passion for creating innovative solutions at the intersection of IoT, AI, and robotics. As National Champion (Costa Rica) and Regional Champion (LATAM) in Samsung Solve for Tomorrow 2025, I led the development of AgroTico Smart, a precision agriculture platform. With expertise in automation, PLCs, microcontrollers, and machine learning, I bring technical excellence and proven leadership to tackle real-world challenges in STEAM fields.",
     references: [
         {
             name: "Lic. Jeisson Córdoba Vargas",
@@ -86,8 +87,8 @@ export const SOCIALS = [
     },
     {
         name: "GitHub",
-        url: "https://github.com/vicbox.dev",
+        url: "https://github.com/stevenalp207",
         icon: "github-fill",
-        show: false
+        show: true
     }
 ]
