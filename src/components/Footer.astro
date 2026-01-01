@@ -1,6 +1,14 @@
 ---
+import {SITE} from '@/config';
 
+const currentYear = new Date().getFullYear();
 ---
-<footer class="container py-4 text-center">
-  <p>This is the end.</p>
+<footer class="container py-4 text-center text-sm text-n500 dark:text-n200">
+  <p>© {currentYear} {SITE.author}. All rights reserved.</p>
+  <p class="mt-1">
+    Built with <a href="https://astro.build" target="_blank" rel="noopener noreferrer" class="hover:text-n700 dark:hover:text-white transition-colors">Astro</a>
+    {SITE.repository && (
+      <span> • <a href={SITE.repository} target="_blank" rel="noopener noreferrer" class="hover:text-n700 dark:hover:text-white transition-colors">View Source</a></span>
+    )}
+  </p>
 </footer>
